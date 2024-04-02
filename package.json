@@ -1,0 +1,11 @@
+{
+  "name": "chaiandcode",
+  "version": "1.0.0",
+  "description": "This is backend tutorial of chai and code on youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajesh Kumar",
+  "license": "ISC"
+}
