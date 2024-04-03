@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "This is backend tutorial of chai and code on youtube",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "start":"nodemon src/index.js"
+    "start": "nodemon dotenv/config --experimental-json-modules  src/index.js"
   },
   "author": "Rajesh Kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4"
+  }
 }
